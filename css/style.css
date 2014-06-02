@@ -81,37 +81,32 @@ h3
 {
 	width: 100%;
 	font-size: 22px;
-	padding-bottom: 20px;
-}
-
-.primary-secondary .featured a,
-.primary-secondary #secondary a
-{
-	color: black;
-	text-decoration: none;
-}
-
-.primary-secondary .featured
-{
-	background-color: #2f3d03;
 	background: url(http://s017.radikal.ru/i408/1306/e0/d6000ebee703.jpg) center;
 	height: 540px;
 	width: 100%;
 	margin-bottom: 20px;
-	padding-top: 380px;
 }
 
-.primary-secondary .featured a
+.primary-secondary .featured #space
 {
-	display: block;
+	height: 380px;
+}
+
+.primary-secondary .featured #descr
+{
 	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
-	padding: 20px;
 }
 
-.primary-secondary .featured img
+.primary-secondary .featured #descr td
 {
-	margin-right: 20px;
+	padding: 20px 0 20px 20px;
+}
+
+.primary-secondary #secondary a
+{
+	color: black;
+	text-decoration: none;
 }
 
 .primary-secondary #secondary table
@@ -178,6 +173,12 @@ h3
 	margin: 0 20px 0px 0;
 }
 
+#faces img
+{
+	width: 120px;
+	height: 120px;
+}
+
 .leafs
 {
 	padding-top:10px;
@@ -212,6 +213,9 @@ h3
 .contacts div#gmap_canvas
 {
 	margin: 0 20px 20px 0;
+	max-width: 100%;
+	height: 400px;
+	width: 680px;
 }
 
 .contacts div.info

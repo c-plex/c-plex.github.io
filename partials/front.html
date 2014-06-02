@@ -10,24 +10,23 @@
 		</ul> -->
 	</div>
 	
-	<div class="col-sm-10 panel">
+	<div class="col-sm-10">
 		<h2>
-			<a ng-class="{active: !active || active == 'projects'}" ng-click="active = 'projects'">Проекты</a>
-			&nbsp;&nbsp;<a ng-class="{active: active == 'customers'}" ng-click="active = 'customers'">Заказчики</a>
-			&nbsp;&nbsp;<a ng-class="{active: active == 'about'}" ng-click="active = 'about'">О компании</a>
+			<a ng-class="{active: !active || active == 'projects'}" ng-click="active = 'projects'">Проекты</a>&nbsp;&nbsp;
+			<a ng-class="{active: active == 'customers'}" ng-click="active = 'customers'">Заказчики</a>&nbsp;&nbsp;
+			<a ng-class="{active: active == 'about'}" ng-click="active = 'about'">О&nbsp;компании</a>
 		</h2>
 		
 		<div class="primary-secondary" ng-show="!active || active == 'projects'">
 			<div class="row">
 				<div class="col-sm-8">
-					<div class="featured">
-						<a>
-							<table><tr>
-								<td><img src="/imgs/partners/roskosmos_nosign.png"></td>
-								<td>Программное обеспечение управления устройствами контроля и проведения тренеровок Центра подготовки космонавтов им. Ю. А. Гагарина</td>
-							</tr></table>
-						</a>
-					</div>
+					<table class="featured">
+						<tr id="space"><td>&nbsp;</td><td>&nbsp;</td></tr>
+						<tr id="descr">
+							<td><img src="/imgs/partners/roskosmos_nosign.png"></td>
+							<td>Программное обеспечение управления устройствами контроля и проведения тренеровок Центра подготовки космонавтов им. Ю.&nbsp;А.&nbsp;Гагарина</td>
+						</tr>
+					</table>
 				</div>
 				<div class="col-sm-4">
 					<div id="secondary">
@@ -144,7 +143,7 @@
 			
 			<h3>Контакты</h3>
 			<div class="contacts clearfix">
-				<div id="gmap_canvas" style="height:400px;width:680px;" ng-show="showMap()"></div>
+				<div id="gmap_canvas" ng-show="showMap()"></div>
 				<div class="info">
 					ООО "Си-плекс”<br/>
 					199034, г Санкт-Петербург,<br/>

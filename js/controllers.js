@@ -150,7 +150,7 @@ var techs = [
 
 var faces = [
 	  {photo:'/imgs/faces/mp.jpg', weight:2, idx:0, name:'Матвей Пашковский', position:'разработчик'} // 0
-	, {photo:'',                   weight:1, idx:1, name:'Владислав Лиференко', position:'разработчик'} // 1
+	, {photo:'',                   weight:1, idx:1, name:'Владислав Лифиренко', position:'разработчик'} // 1
 	//, {photo:'/imgs/faces/pr.jpg', weight:1, idx:2, name:'Петр Рашкин', position:'разработчик'} // 1
 	, {photo:'/imgs/faces/kt.png', weight:1, idx:3, name:'Екатерина Троянова', position:'разработчик'} // 5
 	, {photo:'/imgs/faces/yk.jpg', weight:1, idx:4, name:'Юрий Казаков', position:'разработчик'} // 7
