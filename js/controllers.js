@@ -150,15 +150,16 @@ var techs = [
 
 var faces = [
 	  {photo:'/imgs/faces/mp.jpg', weight:2, idx:0, name:'Матвей Пашковский', position:'разработчик'} // 0
-	, {photo:'',                   weight:1, idx:1, name:'Владислав Лифиренко', position:'разработчик'} // 1
-	//, {photo:'/imgs/faces/pr.jpg', weight:1, idx:2, name:'Петр Рашкин', position:'разработчик'} // 1
-	, {photo:'/imgs/faces/kt.png', weight:1, idx:3, name:'Екатерина Троянова', position:'разработчик'} // 5
-	, {photo:'/imgs/faces/yk.jpg', weight:1, idx:4, name:'Юрий Казаков', position:'разработчик'} // 7
-	, {photo:'/imgs/faces/sb.jpg', weight:1, idx:5, name:'Сергей Быковский', position:'разработчик'} // 9
-	, {photo:'/imgs/faces/ds.jpg', weight:1, idx:6, name:'Денис Шудегов', position:'дизайнер'} // 3
-	, {photo:'/imgs/faces/ep.jpg', weight:1, idx:7, name:'Елизавета Пашковская', position:'проектировщик интерфейсов'} // 4
-	, {photo:'/imgs/faces/mb.jpg', weight:1, idx:8, name:'Маргарита Бамбурова', position:'UI/UX-консультант'} // 6
-	, {photo:'/imgs/faces/as.jpg', weight:1, idx:9, name:'Алксей Самолин', position:'консультант по интернет рекламе'} // 2
+	, {photo:'/imgs/faces/is.jpg', weight:1, idx:1, name:'Илья Шарков', position:'разработчик'} // 1
+	, {photo:'',                   weight:1, idx:2, name:'Владислав Лифиренко', position:'разработчик'} // 1
+	//, {photo:'/imgs/faces/pr.jpg', weight:1, idx:3, name:'Петр Рашкин', position:'разработчик'} // 1
+	, {photo:'/imgs/faces/kt.png', weight:1, idx:4, name:'Екатерина Троянова', position:'разработчик'} // 5
+	, {photo:'/imgs/faces/yk.jpg', weight:1, idx:5, name:'Юрий Казаков', position:'разработчик'} // 7
+	//, {photo:'/imgs/faces/sb.jpg', weight:1, idx:6, name:'Сергей Быковский', position:'разработчик'} // 9
+	, {photo:'/imgs/faces/ds.jpg', weight:1, idx:7, name:'Денис Шудегов', position:'дизайнер'} // 3
+	, {photo:'/imgs/faces/ep.jpg', weight:1, idx:8, name:'Елизавета Пашковская', position:'проектировщик интерфейсов'} // 4
+	, {photo:'/imgs/faces/mb.jpg', weight:1, idx:9, name:'Маргарита Бамбурова', position:'UI/UX-консультант'} // 6
+	, {photo:'/imgs/faces/as.jpg', weight:1, idx:10, name:'Алксей Самолин', position:'консультант по интернет рекламе'} // 2
 	//, {photo:'/imgs/faces/mm.jpg', weight:1, idx:8, name:'Михаил Малыгин'} // 8
 ]
 
