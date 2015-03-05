@@ -1,0 +1,18 @@
+# Site settings
+title: Си-плекс
+email: contact@c-plex.ru
+description: > # this means to ignore newlines until "baseurl:"
+  Компания &laquo;Си-плекс&raquo; разрабатывает:<ul>
+    <li>мобильные приложения;</li>
+    <li>вэб-приложения;</li>
+    <li>приложения для настольных систем.</li>
+  </ul>
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://c-plex.ru" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+highlighter: true
+markdown: kramdown
+permalink: pretty
