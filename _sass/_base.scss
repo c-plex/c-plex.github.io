@@ -59,46 +59,23 @@ h2
     text-decoration: none;
   }
 
-  h2
+  h2,
+  .more
   {
     text-align: center;
-  }
-
-  #fupmstma
-  {
-    background: url(/imgs/tisers/fupmstma.jpg) center right no-repeat;
-    background-size: cover;
-  }
-
-  #cpk
-  {
-    background: url(/imgs/tisers/cpk.jpg) center right no-repeat;
-    background-size: cover;
-  }
-
-  #servas
-  {
-    background: url(/imgs/tisers/servas.jpg) top center no-repeat;
-    background-size: cover;
-  }
-
-  #homebid
-  {
-    background: url(/imgs/tisers/homebid.jpg) top center no-repeat;
-    background-size: cover;
+    display: block;
   }
 
   .col-sm-3
   {
-    .tiser
-    {
-      height: 150px;
-      margin-top: 5px;
-    }
+    margin-bottom: 30px;
+    height: 300px;
 
-    h3
+    img
     {
-      margin: 20px 0 5px 0;
+      margin: 5px 0 20px 0;
+      width: 100%;
+      max-width: 263px;
     }
   }
 }
@@ -106,15 +83,17 @@ h2
 .clients
 {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   
   .col-sm-4
   {
     font-size: 80%;
     text-align: center;
+    margin-bottom: 30px;
 
     img 
     {
+      max-width: 170px;
       width: 100%;
       padding: 5px 10px 20px 10px;
     }
@@ -139,4 +118,11 @@ footer
     color: #ccc;
     height: 70px;
   }
+}
+
+.project-img
+{
+  width: 100%;
+  text-align: center;
+  padding: 30px 100px;
 }

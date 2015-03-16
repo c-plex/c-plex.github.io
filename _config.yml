@@ -7,10 +7,18 @@ description: > # this means to ignore newlines until "baseurl:"
     <li>вэб-приложения;</li>
     <li>приложения для настольных систем.</li>
   </ul>
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://c-plex.ru" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+
+navigation:
+- text: Проекты
+  url: /projects/
+- text: Контакты
+  url: /contacts/
+
+collections:
+  projects:
+    output: true
+    permalink: /project/:path/
 
 # Build settings
 highlighter: pygments #true
