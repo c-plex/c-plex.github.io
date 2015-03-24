@@ -7,15 +7,17 @@ layout: default
       <h1>{{ page.title }}</h1>
       {{ content }}
     </div>
-    <div class="col-sm-3">
+    <div id="projects-menu" class="col-sm-3">
       <h2>Проекты</h2>
       <ul>
-        {% for project in site.projects %}
+        {% assign sorted = (site.projects | sort: 'weight' | reverse ) %}
+        {% for project in sorted limit: 5 %}
           <li class="{% if page.url == project.url %}active{% endif %}">
             <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
           </li>
         {% endfor %}
       </ul>
+      <a class="more" href="/projects">Все проекты</a>
     </div>
   </div>
 </div>

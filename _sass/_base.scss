@@ -126,3 +126,26 @@ footer
   text-align: center;
   padding: 30px 100px;
 }
+
+blockquote 
+{
+
+  footer
+  {
+    margin: 0;
+  }
+}
+
+#projects-menu
+{
+  h2
+  {
+    margin-top: 26px;
+  }
+
+  .more
+  {
+    margin: 40px 0 0 40px;
+    display: block;
+  }
+}

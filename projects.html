@@ -5,13 +5,13 @@ permalink: /projects/
 ---
 
 <div class="row  projects">
-  {% assign sorted = (site.projects | sort: 'weight') %}
-  {% for project in sorted reversed %}
+  {% assign sorted = (site.projects | sort: 'weight' | reverse) %}
+  {% for project in sorted %}
     <div class="col-sm-3">
-      <!-- <a href="{{ project.url | prepend: site.baseurl }}"> -->
+      <a href="{{ project.url | prepend: site.baseurl }}">
         <div class="tiser"><img src="{{ project.tiserimg | prepend: site.baseurl }}"></div>
         <p>{{ project.tiser }}</p>
-      <!-- </a> -->
+      </a>
     </div>
   {% endfor %}
 </div>
