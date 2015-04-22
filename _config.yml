@@ -4,7 +4,7 @@ email: contact@c-plex.ru
 description: > # this means to ignore newlines until "baseurl:"
   Компания &laquo;Си-плекс&raquo; разрабатывает:<ul>
     <li>мобильные приложения;</li>
-    <li>вэб-приложения;</li>
+    <li>веб-приложения;</li>
     <li>приложения для настольных систем.</li>
   </ul>
 url: "http://c-plex.ru" # the base hostname & protocol for your site
